@@ -126,6 +126,13 @@ body {
   .bigTitle {
     position: absolute;
     left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  }
+  .leftTitle {
+    position: absolute;
+    left: 30%;
     top: 12%;
     transform: translateX(-50%);
     font-size: 36px;
@@ -303,8 +310,8 @@ body {
   flex-direction: column;
   align-items: center;
   video {
-    width: 800px;
-    height: 450px;
+    width: 640px;
+    height: 360px;
     @media (min-width: 760px) and (max-width: 959px) {
       width: 480px;
       height: 270px;
@@ -319,8 +326,8 @@ body {
     }
   }
   a {
-    width: 800px;
-    height: 450px;
+    width: 640px;
+    height: 360px;
     @media (min-width: 760px) and (max-width: 959px) {
       width: 480px;
       height: 270px;
